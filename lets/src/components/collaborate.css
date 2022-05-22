@@ -1,0 +1,60 @@
+@media screen and (max-width:1500px){
+    body{
+        background-color: antiquewhite;
+        background: -moz-linear-gradient(white 50%,red 20%,green 40%,yellow 85%);
+        scroll-behavior: smooth;
+    }
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    display: flex;
+    -ms-flex-align: start;
+    flex-direction: column;
+    margin-left: 5%;
+    border: 5px;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 300%;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    font-size: 25px;
+    font-style: oblique;
+}
+
+.img{
+width: 500px;
+height: 400px;
+float: right;
+position: relative;
+margin-right: 20%;
+}
+
+a.link{
+    
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    margin-top: 40%;
+    }
+
+.btn{
+    margin-top: 10%;
+    background-color: black;
+    color: antiquewhite;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.btn:hover{
+    background-color: aquamarine;
+    color: antiquewhite;
+}
